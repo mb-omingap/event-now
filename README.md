@@ -4,10 +4,13 @@
 
 EventNow es una empresa ficticia que desea crear un portal web para que sus usuarios puedan:
 
-1. Buscar eventos.
-2. Reservar entradas.
-3. Gestionar sus reservas.
-4. Recibir notificaciones seguras.
+1. **Buscar eventos:** Los usuarios deben poder consultar un listado de eventos disponibles, filtrarlos o seleccionarlos según sus preferencias. Esto puede incluir búsqueda por nombre, ciudad, fecha u otros criterios relevantes.
+
+2. **Reservar entradas:** Una vez que el usuario seleccione un evento, debe poder completar un formulario de reserva donde ingrese sus datos personales y la cantidad de entradas que desea reservar, con las validaciones necesarias para garantizar que la información sea correcta y completa.
+
+3. **Gestionar sus reservas:** Los usuarios deben tener la posibilidad de visualizar todas las reservas realizadas, organizadas de manera clara (por ejemplo, por fecha o por evento). Esta funcionalidad incluye listar los eventos reservados y los detalles de cada reserva.
+
+4. **Recibir notificaciones seguras:** La aplicación debe permitir mostrar mensajes claros de éxito o error durante el proceso de reserva, notificando al usuario sobre el estado de sus acciones. Además, debe garantizar que las notificaciones y mensajes sean seguros, evitando problemas como ataques de inyección de código (XSS) y asegurando que los datos se manejen de manera confiable.
 
 Como parte de esta prueba técnica, deberás construir una versión inicial del portal donde los usuarios puedan:
 
